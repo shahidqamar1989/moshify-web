@@ -26,9 +26,11 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
 
-  <body>  
+  <body>
     <nav class="nav collapsible">
-      <a aria-label="Shahidcood" class="nav__brand" href="/"><img src="images/logo.svg" alt="" /></a>
+      <a aria-label="Shahidcood" class="nav__brand" href="/"
+        ><img src="images/logo.svg" alt=""
+      /></a>
       <svg class="icon icon--white nav__toggler">
         <use xlink:href="images/sprite.svg#menu"></use>
       </svg>
@@ -70,6 +72,21 @@
       </div>
     </section>
 
+    <section>
+      <div class="box">
+        <div class="video--box">
+          <div class="video">
+            <video
+              controls
+              autoplay
+              class="video__player"
+              src="video/Factory Functions.mp4"
+            ></video>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section data-aos="zoom-in-up" class="block block-domain">
       <header class="block__header">
         <h2>Starting at 20$ per month</h2>
@@ -79,7 +96,7 @@
       </header>
       <div class="input-group">
         <input
-        aria-label="Domain"
+          aria-label="Domain"
           type="text"
           class="input"
           placeholder="Enter domain name here..."
