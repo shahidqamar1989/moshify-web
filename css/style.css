@@ -1,5 +1,5 @@
 :root {
-  --color-primary: #2583ff90;
+  --color-primary: #ff6625fb;
   --color-secondary: #00d9ff;
   --color-accent: #ff3400;
   --color-heading: #1b0760;
@@ -318,7 +318,10 @@ a {
 }
 
 .card--primary .badge--primary {
-  background: #126de4;
+  background: #fc550efb;
+}
+.card--primary .badge--primary:hover {
+  transform: scale(1.2);
 }
 
 .card--secondary .badge--secondary {
