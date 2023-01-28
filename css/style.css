@@ -866,3 +866,24 @@ a {
     font-size: 1.6rem;
   }
 }
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.video--box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 2px solid rgb(153, 151, 165);
+  border-radius: 10px;
+  width: 510px;
+  top: 2rem;
+  
+}
+.video__player {
+  width: 500px;
+}
